@@ -22,13 +22,13 @@ This document describes the process of building a function container outside the
 
 Let's start by creating an empty solution that will contain all of the C# projects for the containerized functions that we will build. We will call the solution "NuclioFunctions".
 
-![](file:///G:/PullmanGit/NUCLIO/MyFunctions/img/vscode-solution.png)
+![](file:///G:/PullmanGit/NUCLIO/NuclioDotNetTutorials/img/vscode-solution.png)
 
 Next, add a new project whose type is C# library for Linux, and call it *handler* 
 
 **Note: You MUST name the project 'handler' for the entire process of building a containerized function to work correctly.  I'll explain later why this is the case.**
 
-![](file:///G:/PullmanGit/NUCLIO/MyFunctions/img/vscode-project.png)
+![](file:///G:/PullmanGit/NUCLIO/NuclioDotNetTutorials/img/vscode-project.png)
 
 When building our function, we will target the .NET 3.1 runtime. Follow the wizard steps in Visual Studio and verify that the Framework version is .NET Core 3.1 (Long-term support):
 
