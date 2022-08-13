@@ -9,6 +9,6 @@ The tutorials and associated code utilize Visual Studio.
 
 # Tutorial Files
 
-<a href="Part1.md" target="_blank">Part 1 - Writing the Function</a>
+<a href="Part1.md" target="_blank">Part 1 -Building the Function Container Image</a>
 
 <a href="Part2.md" target="_blank">Part 2 - Deploying the Container Image</a>
