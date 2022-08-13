@@ -1,4 +1,4 @@
-# Building a Nuclio Function Container Using C# and .NET Core 3.1 - Part 1
+# Windows  10: Building a Nuclio Function Container Using C# and .NET Core 3.1 - Part 1 - Building the Function Container Image
 
 by Greg Lusk
 
@@ -8,10 +8,11 @@ Out of the box, Nuclio supports building function containers through its Dashboa
 
 In order to provide third-party library support, you must compile your own Docker container with the functions that you write.  This is essentially what takes place on the server when you deploy code, except that you are doing it external to the server on your own development machine; afterward, you simply deploy the container to the server. 
 
-This document describes the process of building a function container outside the Nuclio runtime and deploying it to a Nuclio server.
+This document describes the process of building a function container outside the Nuclio runtime and deploying it to a Nuclio server using Windows 10
 
 # Prerequisites
 
+* Windows 10
 * Visual Studio 2022
 * .NET Core 3.1 SDK
 * Git
