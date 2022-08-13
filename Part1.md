@@ -58,13 +58,13 @@ Select the *nuclio-sdk-dotnetcore* project and click OK.
 
 Now that we have built the *nuclio-sdk-dotnetcore* assembly, we  really don't need it in our project any more; we just need a reference to it.  So let's create a Packages folder in our function library project and put the *nuclio-sdk-dotnetcore* assembly there so that we can reference it.  That way, we don't have to keep it in our solution and we can just use the compiled assembly.
 
-Copy the DLL file from the *bin/Debug* folder in the *nuclio-sdk-dotnetcore* project to the Packages folder in the function library project.  Your Solution Explorer should look something like this now:
+Copy the DLL file from the *bin/Debug* folder in the *nuclio-sdk-dotnetcore* project to the Package folder in the function library project.  Your Solution Explorer should look something like this now:
 
 ![](img/solExp2.png)
 
 Now right-click and remove the *nuclio-sdk-dotnetcore*  project, leaving only the function container project.
 
-Finally, add a reference to the *nuclio-sdk-dotnetcore* assembly that is located in the Packages folder.
+Finally, add a reference to the *nuclio-sdk-dotnetcore* assembly that is located in the Package folder.
 
 ## Write the Function Code
 
@@ -144,11 +144,11 @@ This Dockerfile is an updated version of the one found at <https://nuclio.io/doc
 
 # Add a .dockerignore File
 
-Before we can build our project with Docker we need to tell Docker to ignore the *nuclio-sdk-dotnetcore* file in the Packages folder. This is because in the builder base image that our container image is based on, the *nuclio-sdk-dotnetcore* assembly is compiled and provided for us.  If we don't tell Docker to ignore this file in the Packages folder, the .NET compiler will return an error.
+Before we can build our project with Docker we need to tell Docker to ignore the *nuclio-sdk-dotnetcore* file in the Package folder. This is because in the builder base image that our container image is based on, the *nuclio-sdk-dotnetcore* assembly is compiled and provided for us.  If we don't tell Docker to ignore this file in the Package folder, the .NET compiler will return an error.
 
 So let's create a text file in our project and call it *.dockerignore.txt* and again rename it to remove the extension. Put the following entry in the resulting file:
 
-`Packages/nuclio-sdk-dotnetcore.dll`
+`Package/nuclio-sdk-dotnetcore.dll`
 
 # Build the Image
 
