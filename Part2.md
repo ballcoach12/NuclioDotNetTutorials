@@ -16,6 +16,10 @@ In Part 1, we walked through the steps necessary to build an external function c
 
 It's clear that the Nuclio team originally designed the tools to run on Linux. This is demonstrated by the fact that the `nuctl` CLI does not run correctly under Windows 10, even though there is a release designated especially for Windows 10.  By combing through the Nuclio GitHub issues, though, we have found a workaround for making `nuctl` run on Windows.
 
+
+<a href="https://github.com/nuclio/nuclio/issues/1821">1821</a> | <a href="https://github.com/openvinotoolkit/cvat/issues/2127#issuecomment-691507873">2127</a>
+
+
 ## Step 1: Install WSL
 
 If you don't already have WSL 2  installed on your Windows 10 machine, head on over to <https://docs.microsoft.com/en-us/windows/wsl/install>  for instructions on how to set it up on your machine.
