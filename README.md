@@ -9,4 +9,4 @@ The tutorials and associated code utilize Visual Studio.
 
 # Tutorial Files
 
-Part 1<a href="Part1.md" target="_blank"></a>
+<a href="Part1.md" target="_blank">Part 1</a>
