@@ -124,16 +124,38 @@ As a final step, we will modify the function implementation code to echo back wh
 Change the code in the handler function to the following:
 
 ```csharp
+using System;
+using Nuclio.Sdk;
 
+// @nuclio.configure
+//
+// function.yaml
+//   spec:
+//     runtime: dotnetcore
+//     handler: Function:execute
+public class function
+{
+    public object execute(Context context, Event eventBase)
+    {
+        var body = eventBase.GetBody().ToString();
+        return new Response()
+        {
+            StatusCode = 200,
+            ContentType = "application/text",
+            Body = "Hello! I executed! You sent the following body contents:" + body
+        };
+    }
+}
 ```
 
 Next, build the container again with Docker:
 
-``
+`docker build -t scaleby100:0.0.4 .`
+
 
 Now deploy it again with `nuctl`:
 
-``
+` ./nuctl deploy scaleby1004 --run-image scaleby100:0.0.4 --runtime dotnetcore --handler function:execute --platform local`
 
 Find the newly-deployed function in the Dashboard and test it. This time, provide a message in the Body that you want the function to echo back:
 
@@ -144,7 +166,6 @@ Find the newly-deployed function in the Dashboard and test it. This time, provid
 In this tutorial, we learned how to set up a Windows 10 development machine to use `nuctl` from WSL to deploy a function container image to Nuclio. We also changed the function and redeployed it and saw the results of our change.
 
 In Part 3, we will modify our function to accept an incoming integer value and return the result of dividing that value by 100 (the original purpose of the function :)).
-
 
 
 
