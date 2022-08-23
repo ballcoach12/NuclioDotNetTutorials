@@ -10,3 +10,15 @@ G:\PullmanGit\NUCLIO\NuclioDotNetTutorials\handler\obj\Debug\netcoreapp3.1\handl
 G:\PullmanGit\NUCLIO\NuclioDotNetTutorials\handler\obj\Debug\netcoreapp3.1\handler.csproj.CopyComplete
 G:\PullmanGit\NUCLIO\NuclioDotNetTutorials\handler\obj\Debug\netcoreapp3.1\handler.dll
 G:\PullmanGit\NUCLIO\NuclioDotNetTutorials\handler\obj\Debug\netcoreapp3.1\handler.pdb
+G:\PullmanGit\NUCLIO\NuclioDotNetTutorials\Part-1\handler\bin\Debug\netcoreapp3.1\handler.deps.json
+G:\PullmanGit\NUCLIO\NuclioDotNetTutorials\Part-1\handler\bin\Debug\netcoreapp3.1\handler.dll
+G:\PullmanGit\NUCLIO\NuclioDotNetTutorials\Part-1\handler\bin\Debug\netcoreapp3.1\handler.pdb
+G:\PullmanGit\NUCLIO\NuclioDotNetTutorials\Part-1\handler\bin\Debug\netcoreapp3.1\nuclio-sdk-dotnetcore.dll
+G:\PullmanGit\NUCLIO\NuclioDotNetTutorials\Part-1\handler\obj\Debug\netcoreapp3.1\handler.csproj.AssemblyReference.cache
+G:\PullmanGit\NUCLIO\NuclioDotNetTutorials\Part-1\handler\obj\Debug\netcoreapp3.1\handler.GeneratedMSBuildEditorConfig.editorconfig
+G:\PullmanGit\NUCLIO\NuclioDotNetTutorials\Part-1\handler\obj\Debug\netcoreapp3.1\handler.AssemblyInfoInputs.cache
+G:\PullmanGit\NUCLIO\NuclioDotNetTutorials\Part-1\handler\obj\Debug\netcoreapp3.1\handler.AssemblyInfo.cs
+G:\PullmanGit\NUCLIO\NuclioDotNetTutorials\Part-1\handler\obj\Debug\netcoreapp3.1\handler.csproj.CoreCompileInputs.cache
+G:\PullmanGit\NUCLIO\NuclioDotNetTutorials\Part-1\handler\obj\Debug\netcoreapp3.1\handler.csproj.CopyComplete
+G:\PullmanGit\NUCLIO\NuclioDotNetTutorials\Part-1\handler\obj\Debug\netcoreapp3.1\handler.dll
+G:\PullmanGit\NUCLIO\NuclioDotNetTutorials\Part-1\handler\obj\Debug\netcoreapp3.1\handler.pdb

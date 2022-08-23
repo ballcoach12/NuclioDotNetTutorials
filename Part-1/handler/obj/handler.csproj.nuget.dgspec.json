@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\PullmanGit\\NUCLIO\\NuclioDotNetTutorials\\handler\\handler.csproj": {}
+    "G:\\PullmanGit\\NUCLIO\\NuclioDotNetTutorials\\Part-1\\handler\\handler.csproj": {}
   },
   "projects": {
-    "G:\\PullmanGit\\NUCLIO\\NuclioDotNetTutorials\\handler\\handler.csproj": {
+    "G:\\PullmanGit\\NUCLIO\\NuclioDotNetTutorials\\Part-1\\handler\\handler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\PullmanGit\\NUCLIO\\NuclioDotNetTutorials\\handler\\handler.csproj",
+        "projectUniqueName": "G:\\PullmanGit\\NUCLIO\\NuclioDotNetTutorials\\Part-1\\handler\\handler.csproj",
         "projectName": "handler",
-        "projectPath": "G:\\PullmanGit\\NUCLIO\\NuclioDotNetTutorials\\handler\\handler.csproj",
+        "projectPath": "G:\\PullmanGit\\NUCLIO\\NuclioDotNetTutorials\\Part-1\\handler\\handler.csproj",
         "packagesPath": "C:\\Users\\greglusk\\.nuget\\packages\\",
-        "outputPath": "G:\\PullmanGit\\NUCLIO\\NuclioDotNetTutorials\\handler\\obj\\",
+        "outputPath": "G:\\PullmanGit\\NUCLIO\\NuclioDotNetTutorials\\Part-1\\handler\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,41 @@
+metadata:
+  name: scaleby100
+  labels:
+    nuclio.io/project-name: default
+spec:
+  handler: "function:execute"
+  runtime: dotnetcore
+  env:
+    - name: NATS_URL
+      value: 10.202.26.169
+    - name: NATS_PORT
+      value: "9012"
+  resources:
+    requests:
+      cpu: 25m
+      memory: 1Mi
+  image: "scaleby100:latest"
+  targetCPU: 75
+  triggers:
+    default-http:
+      class: ""
+      kind: http
+      name: default-http
+      maxWorkers: 1
+    nats:
+      class: ""
+      kind: nats
+      name: nats
+      url: "nats://10.202.26.169:9012"
+      attributes:
+        topic: a.b.c.d
+  build:
+    runtimeAttributes:
+      repositories: []
+    codeEntryType: sourceCode
+  loggerSinks:
+    - level: debug
+  platform: {}
+  readinessTimeoutSeconds: 120
+  securityContext: {}
+  eventTimeout: ""

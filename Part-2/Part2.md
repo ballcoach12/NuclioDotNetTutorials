@@ -97,7 +97,7 @@ OK. We are finally ready to deploy our function container image. Open up a termi
 
 Now type:
 
-`./nuctl deploy scaleby100new --run-image:scaleby100:0.0.1 --runtime dotnetcore --handler function:execute --platform local`
+`./nuctl deploy scaleby100new --run-image scaleby100:0.0.1 --runtime dotnetcore --handler function:execute --platform local`
 
 This command deploys our container to the server, naming it `scaleby100new` using the image that we created in Part 1. We use the `--platform local` argument since we are running the server locally.
 
